@@ -1,0 +1,12 @@
+[project]
+name = "gemini-chat"
+version = "0.1.0"
+description = "A CLI chatbot powered by Gemini AI with MCP tool integration"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "google-genai>=1.66.0",
+    "mcp[cli]>=1.26.0",
+    "prompt-toolkit>=3.0.52",
+    "python-dotenv>=1.2.2",
+]
